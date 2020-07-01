@@ -1,0 +1,79 @@
+/* Media Query */
+
+/* Screen below 1024px and above 768px */
+@media only screen and (max-width: 1024px) {
+  .logo {
+    width: 30%;
+  }
+  .fx-width {
+    width: 70%;
+  }
+  nav ul li a {
+    font-size: 15px;
+    color: #000;
+    margin: 15px;
+  }
+}
+
+
+/* Screen below 768px and above 584px */
+@media only screen and (max-width: 768px) {
+  .view-btn {
+    left: 13%;
+    transform: translateY(85px);
+  }
+  .line-1 {
+    line-height: 20px;
+  }
+  input[type="radio"] {
+    display: none;
+  }
+  .book-btn {
+    width: 200px;
+    height: 150px;
+    padding-top: 14%;
+    background-image: url(./images/Rectangle%205.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translateX(130%);
+  }
+  .image-pos {
+    transform: translateY(-80px);
+  }
+  .image-top {
+    transform: translateY(-100px);
+  }
+}
+
+
+/* Screen below 584px */
+@media only screen and (max-width: 584px) {
+  .about-us {
+    display: block;
+  }
+  .about-text {
+    width: 100%;
+    text-align: center;
+    line-height: 34px;
+  }
+  .about-image {
+    width: 100%;
+  }
+  .service {
+    display: none;
+  }
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .story {
+    flex-direction: column-reverse !important;
+  }
+  .height {
+    height: 20vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .foot {
+    width: 50% !important;
+  }
+}
